@@ -1,0 +1,13 @@
+git config --global user.name "username"
+git config --global user.email "email"
+
+
+
+git init
+git status
+git add .         OR         git add filename
+git status
+git commit -m "message"
+git status
+git remote add origin https://github.com/muzzammalrazzaq/SMIT-Flutter-Course-Batch1.git
+git push -u origin master
