@@ -27,5 +27,15 @@ void main(){
   studentRecord.putIfAbsent(5075, () => "muzzamal");
   print(studentRecord);
 
+  //remove values from Map
+  studentRecord.remove(5077);
+  print(studentRecord);
+  studentRecord.removeWhere((key, value) => value.startsWith("a"));
+  print(studentRecord);
+
+  //clear method in Map
+  studentRecord.clear();
+  print(studentRecord);
+
   //all method used in "List" are also same for "Map"
 }
