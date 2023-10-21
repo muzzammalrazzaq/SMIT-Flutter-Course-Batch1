@@ -33,6 +33,14 @@ void main(){
   studentRecord.removeWhere((key, value) => value.startsWith("a"));
   print(studentRecord);
 
+  //Merge method in Map
+  Map f1 = {1:"apple" , 2:"banana"};
+  Map f2 = {3:"orange"};
+  Map f3 = {4: "mango"};
+
+  Map fruit = {...f1 , ...f3};
+  print(fruit);
+
   //clear method in Map
   studentRecord.clear();
   print(studentRecord);
