@@ -38,7 +38,9 @@ void main(){
   Map f2 = {3:"orange"};
   Map f3 = {4: "mango"};
 
-  Map fruit = {...f1 , ...f3};
+  Map fruit = {...f1 , ...f2 , ...f3};
+  print(fruit);
+  fruit = {...f1 , ...f3};
   print(fruit);
 
   //clear method in Map
