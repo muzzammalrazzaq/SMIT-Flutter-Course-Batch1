@@ -26,4 +26,6 @@ void main(){
   print(studentRecord);
   studentRecord.putIfAbsent(5075, () => "muzzamal");
   print(studentRecord);
+
+  //all method used in "List" are also same for "Map"
 }
