@@ -88,4 +88,8 @@ void main(){
   t7_RN.removeWhere((e) => e>5075);
   print(t7_RN);
 
+  // where method in list
+  List<int> numbers = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+  List<int> evenNumbers = numbers.where((element) => element.isEven) .toList();
+  print(evenNumbers);
 }
