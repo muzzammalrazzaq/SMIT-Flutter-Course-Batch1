@@ -74,5 +74,18 @@ void main(){
   var t7_descending = List.of(t7_RN.reversed);
   print(t7_descending);
 
+  //add element in list
+  t7_RN.add(5076);
+  print(t7_RN);
+  t7_RN.addAll([5077, 5085 , 5119]);
+  print(t7_RN);
+
   //remove element from list
+  t7_RN.remove(5085);
+  print(t7_RN);
+  t7_RN.removeAt(t7_RN.length-1);
+  print(t7_RN);
+  t7_RN.removeWhere((e) => e>5075);
+  print(t7_RN);
+
 }
