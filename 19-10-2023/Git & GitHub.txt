@@ -1,3 +1,4 @@
+( Sab Sy Pehly "Git Bash" Ma Ye 2no Commanad Run Karni Hn , 1 Computer Ma Only 1 Bar)
 git config --global user.name "username"
 git config --global user.email "email"
 
@@ -5,7 +6,7 @@ git config --global user.email "email"
 
 git init
 git status
-git add .         OR         git add filename
+git add .          OR          git add filename
 git status
 git commit -m "message"
 git status
