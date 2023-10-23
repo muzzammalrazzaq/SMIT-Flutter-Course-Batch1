@@ -11,19 +11,20 @@ void main() {
   bool isLogin = false;
 
   while (isLogin == false) {
-    for (var i = 0; i < userRecord.length; i++) {
-      print("Now You Are On Index: $i");
-      stdout.write("Enter email: ");
-      String enteredEmail = (stdin.readLineSync()!);
-      stdout.write("Enter password: ");
-      String enteredPassword = (stdin.readLineSync()!);
+    stdout.write("Enter email: ");
+    String enteredEmail = (stdin.readLineSync()!);
+    stdout.write("Enter password: ");
+    String enteredPassword = (stdin.readLineSync()!);
 
+    for (var i = 0; i < userRecord.length; i++) {
+      print(" ");
       if (userRecord[i]["email"] == enteredEmail && userRecord[i]["password"] == enteredPassword) {
+        print("Login SuccessFul , Your Login Details Have Been Found On Index: $i");
         isLogin = true;
-        print("Login Successful");
+        break;
       }
       else {
-        print("Login Failed. Try Again.");
+        stdout.write(" ");
       }
     }
   }
