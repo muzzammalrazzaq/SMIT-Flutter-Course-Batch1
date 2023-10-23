@@ -2,12 +2,15 @@ import 'dart:io';
 
 void main(){
 
+  String email;
+  String password;
   bool isLogin = false;
+
   while(isLogin==false){
     stdout.write("Enter You Email: ");
-    String email = stdin.readLineSync()!;
+    email = (stdin.readLineSync()!);
     stdout.write("Enter You PassWord: ");
-    String password = stdin.readLineSync()!;
+    password = (stdin.readLineSync()!);
     if(email=="admin@gmail.com" && password=="12345"){
       print("Login SuccessFul");
       isLogin = true;
@@ -16,4 +19,5 @@ void main(){
       print("Login Failed");
     }
   }
+
 }
