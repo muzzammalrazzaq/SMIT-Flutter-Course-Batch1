@@ -17,14 +17,13 @@ void main() {
     String enteredPassword = (stdin.readLineSync()!);
 
     for (var i = 0; i < userRecord.length; i++) {
-      print(" ");
       if (userRecord[i]["email"] == enteredEmail && userRecord[i]["password"] == enteredPassword) {
         print("Login SuccessFul , Your Login Details Have Been Found On Index: $i");
         isLogin = true;
         break;
       }
       else {
-        stdout.write(" ");
+        print(" ");
       }
     }
   }
