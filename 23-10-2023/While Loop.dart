@@ -1,8 +1,8 @@
 import 'dart:io';
 
 void main(){
-  bool isLogin = false;
 
+  bool isLogin = false;
   while(isLogin==false){
     stdout.write("Enter You Email: ");
     String email = stdin.readLineSync()!;
