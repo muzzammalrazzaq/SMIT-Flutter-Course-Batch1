@@ -17,12 +17,12 @@ void main(){
   print(studentMarkSheet1("muzzamal", 70, 80, 81));
   print(studentMarkSheet2(name: "muzzamal razzaq", subject1: 70, subject2: 80, subject3: 81));
 //Calling studentData Function From studentRecord.dart File
-  print(studentData(name: "shayan", rollNO: "5044"));
-  print(studentData(name: "sajjad", rollNO: "5035", section: "A"));
-  print(studentData(name: "mudasir", rollNO: "5045"));
-  print(studentData(name: "nasir", rollNO: "5050"));
-  print(studentData(name: "usama", rollNO: "5051"));
-  print(studentData(name: "hamid", rollNO: "5060"));
+  print(studentData(name: "shayan",   rollNO: "5044"));
+  print(studentData(name: "sajjad",   rollNO: "5035", section: "A"));
+  print(studentData(name: "mudasir",  rollNO: "5045"));
+  print(studentData(name: "nasir",    rollNO: "5050"));
+  print(studentData(name: "usama",    rollNO: "5051"));
+  print(studentData(name: "hamid",    rollNO: "5060"));
   print(studentData(name: "musharaf", rollNO: "5074"));
   print(studentData(name: "muzzamal", rollNO: "5075"));
 }
